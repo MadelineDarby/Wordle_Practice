@@ -10,7 +10,7 @@ public class HomeScreen{
    }
    
    public static void homeFrame(){
-      //Creating Frame
+    /*  //Creating Frame
        Frame home = new Frame("Wordle_Practice");
       //setting frame size
       home.setSize(1000, 1000);
@@ -52,14 +52,15 @@ public class HomeScreen{
       public void actionPerformed (ActionEvent e) {
          /*I -think- I'll call the information in PanelGrid here
           (so I ned to create that before I can really do anything)
-         */        
+                
              }    
          });
-   }
+   */
+      }
    
    
    //I should delete this later and run all HomeScreen stuff from WordleMain
    public static void main(String[]args){
-      homeFrame();
+     //homeFrame();
    }
 }
