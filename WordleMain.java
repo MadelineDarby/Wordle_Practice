@@ -1,8 +1,11 @@
 public class WordleMain{
 
    public static void main (String[]args){
-   //creates an object from HomeScreen class
-   HomeScreen H = new HomeScreen();
+  /* //creates an instance of HomeScreen
+      HomeScreen basic = new HomeScreen();
+   //shows HomeScreen
+      basic.homeFrame();
+      */
    
    
 
