@@ -6,17 +6,7 @@ import java.awt.event.ActionListener;
 public class PanelGrid  implements ActionListener{
 
    public static void mainGame(){
-       //Creating Frame
-       Frame home = new Frame("Wordle_Practice");
-      //setting frame size
-      home.setSize(1000, 1000);
-      home.setResizable(true);
-      //Setting the layout for the Frame
-      home.setLayout(new FlowLayout());
-      //Sets background of frame to Gray
-      home.setBackground(Color.GRAY);
-      //makes frame visible
-      home.setVisible(true);
+      
       //creates TextFields
       TextField TryOne = new TextField(24);
       TextField TryTwo = new TextField(24);
