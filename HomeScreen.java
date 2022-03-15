@@ -1,12 +1,10 @@
 import java.awt.*;
 import java.awt.event.*;    
 
-/*This class right now is acting as a general workspace
- more than anything else as I'm figuring out what methods/objects I need to use.
-*/
-
 public class HomeScreen{     
-   HomeScreen(){}
+   HomeScreen(){
+   
+   }
    
    public static void homeFrame(){
       //Creating Frame
@@ -16,7 +14,6 @@ public class HomeScreen{
       home.setResizable(true);
       //Setting the layout for the Frame
       home.setLayout(new GridBagLayout());
-      home.setLayout(new FlowLayout());
       //Sets background of frame to Gray
       home.setBackground(Color.GRAY);
       //makes frame visible
@@ -34,5 +31,18 @@ public class HomeScreen{
       home.add(ButtonPlay);
 
       //Defines what action occurs when button is pressed  
-     // ButtonPlay.addActionListener(new ActionListener() {     
-      //public void actionPerformed (ActionEvent e) {
+//       ButtonPlay.addActionListener(new ActionListener() {     
+//          public void actionPerformed (ActionEvent e) {
+//          //PanelGrid.mainGame();
+//          boolean z = true;                
+//              }    
+//          });
+//    
+       }
+   
+   
+   //I should delete this later and run all HomeScreen stuff from WordleMain
+   //public static void main(String[]args){
+     //homeFrame();
+   //}
+}

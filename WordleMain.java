@@ -1,14 +1,17 @@
+import java.awt.*;
+import java.awt.event.*;  
+
 public class WordleMain{
 
    public static void main (String[]args){
 
-
       HomeScreen.homeFrame();
-
-  /* //creates an instance of HomeScreen
-      HomeScreen basic = new HomeScreen();
-   //shows HomeScreen
-      basic.homeFrame();
-      */
-   }
+      HomeScreen.homeFrame().ButtonPlay.addActionListener(new ActionListener() {     
+         public void actionPerformed (ActionEvent e) {
+         //PanelGrid.mainGame();
+         boolean z = true;                
+             }    
+         });
+   
+      }
 }
