@@ -4,6 +4,7 @@ import java.awt.event.*;
 /*This class right now is acting as a general workspace
  more than anything else as I'm figuring out what methods/objects I need to use.
 */
+
 public class HomeScreen{     
    HomeScreen(){}
    
@@ -15,6 +16,7 @@ public class HomeScreen{
       home.setResizable(true);
       //Setting the layout for the Frame
       home.setLayout(new GridBagLayout());
+      home.setLayout(new FlowLayout());
       //Sets background of frame to Gray
       home.setBackground(Color.GRAY);
       //makes frame visible
@@ -34,17 +36,3 @@ public class HomeScreen{
       //Defines what action occurs when button is pressed  
      // ButtonPlay.addActionListener(new ActionListener() {     
       //public void actionPerformed (ActionEvent e) {
-         /*I -think- I'll call the information in PanelGrid here
-          (so I ned to create that before I can really do anything)
-                
-             }    
-         });
-   */
-      }
-   
-   
-   //I should delete this later and run all HomeScreen stuff from WordleMain
-   public static void main(String[]args){
-     //homeFrame();
-   }
-}
